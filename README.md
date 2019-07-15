@@ -18,7 +18,7 @@
 	3.roslaunch ur10_moveit_config moveit_rviz.launch config:=true
 
 2.realsense驱动：
-在calib_ws-master空间中（该包是杨师弟提供）：
+在calib_ws-master空间中（该包是杨师弟提供https://github.com/lixiny/calib_ws.git）：
 	roslaunch realsense_driver.launch
 
 3.tf发布：
