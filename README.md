@@ -1,5 +1,5 @@
 # gpd_ws
-这个程序是gpd的补充算法（外国人看不懂系列）
+这个程序是gpd(https://github.com/atenpas/gpd.git)的补充算法（外国人看不懂系列）
 
 关于gdp的一些小改动：
 
@@ -35,4 +35,8 @@ rosrun tf static_transform_publisher 0.075 0.06 -0.02 3.141592653 -1.570796 -0.0
 5.主程序（先讲USB驱动权限开放）：
 python amazon_picking.py
 
+有个重点要说明：
 
+gpd生成的grasp的空间方向是用手抓坐标系（固定在每个candidate grasp上的）的x,y,z相对于摄像头的单位向量
+
+故这三个向量如何用，即就是旋转矩阵的三个列向量！具体参见amazon_picking.py，具体正负号得实际情况调一下
