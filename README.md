@@ -17,11 +17,12 @@
 	3.roslaunch ur10_moveit_config moveit_rviz.launch config:=true
 
 2.realsense驱动：
-在calib_ws-master空间中（该包是杨理兴提供）：
+在calib_ws-master空间中（该包是杨师弟提供）：
 	roslaunch realsense_driver.launch
 
 3.tf发布：
 rosrun tf static_transform_publisher 0.075 0.06 -0.02 3.141592653 -1.570796 -0.03 /ee_link /camera_joint 100
+
 4.使用gdp：
 在gpd空间中，roslaunch gdp tutorial1.launch
 
