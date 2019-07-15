@@ -34,3 +34,4 @@ rosrun tf static_transform_publisher 0.075 0.06 -0.02 3.141592653 -1.570796 -0.0
 5.主程序（先讲USB驱动权限开放）：
 python amazon_picking.py
 
+
