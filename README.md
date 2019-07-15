@@ -1,5 +1,5 @@
 # gpd_ws
-这个程序是gpd(https://github.com/atenpas/gpd.git)的补充算法（外国人看不懂系列）
+这个程序是gpd(https://github.com/atenpas/gpd.git)的补充算法（只用中文写了）
 
 关于gdp的一些小改动：
 
