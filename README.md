@@ -42,3 +42,8 @@ gpd生成的grasp的空间方向是用手抓坐标系（固定在每个candidate
 故这三个向量如何用，即就是旋转矩阵的三个列向量！具体参见amazon_picking.py，具体正负号得实际情况调一下：
 
 rot2_mat2    = np.array([[grasps.approach.x,grasps.axis.x,-grasps.binormal.x,0],[grasps.approach.y,grasps.axis.y,-grasps.binormal.y,0],[grasps.approach.z,grasps.axis.z,-grasps.binormal.z,0],[0,0,0,1]])
+
+
+
+
+https://www.cnblogs.com/zhengjiang/p/10864512.html
